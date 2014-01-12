@@ -20,5 +20,3 @@
   sudo: yes
   apt: pkg=nodejs update_cache=yes
   
-- name: install npm
-  npm: 
