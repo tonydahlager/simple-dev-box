@@ -1,0 +1,8 @@
+---
+- name: update apt-get 
+  sudo: yes
+  apt: update_cache=yes cache_valid_time=3600
+
+- name: install phantomjs
+  sudo: yes
+  apt: package=phantomjs state=present
