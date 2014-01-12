@@ -1,0 +1,7 @@
+---
+- name: NodeJS single node app sever
+  hosts: all
+  roles:
+    - common
+    - nodejs
+
