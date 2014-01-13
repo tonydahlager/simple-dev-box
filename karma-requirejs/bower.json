@@ -1,0 +1,38 @@
+{
+  "name": "karma-requirejs",
+  "version": "0.0.1",
+  "homepage": "https://github.com/kjbekkelund/karma-requirejs",
+  "authors": [
+    "Kim Joar Bekkelund <kjbekkelund@gmail.com>"
+  ],
+  "main": "index.html",
+  "keywords": [
+    "karma",
+    "javascript",
+    "testing"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "install": {
+    "path": {
+      "css": "lib",
+      "js": "lib",
+      "eot": "lib",
+      "svg": "lib",
+      "ttf": "lib",
+      "woff": "lib"
+    }
+  },
+  "dependencies": {
+    "jquery": "~2.0.3",
+    "lodash": "~2.4.1",
+    "requirejs": "~2.1.10"
+  }
+}

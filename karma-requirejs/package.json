@@ -1,0 +1,48 @@
+{
+  "name": "karma-requirejs",
+  "version": "0.0.1",
+  "description": "example karma and requirejs testing setup",
+  "main": "karma.conf.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kjbekkelund/karma-requirejs.git"
+  },
+  "keywords": [
+    "karma",
+    "requirejs",
+    "phantomjs",
+    "testing"
+  ],
+  "author": "Kim Joar Bekkelund",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kjbekkelund/karma-requirejs/issues"
+  },
+  "devDependencies": {
+    "bower-installer": "~0.6.1",
+    "bower": "~1.2.8",
+    "mocha": "~1.17.0",
+    "karma-script-launcher": "~0.1.0",
+    "karma-firefox-launcher": "~0.1.3",
+    "karma-chrome-launcher": "~0.1.2",
+    "karma-html2js-preprocessor": "~0.1.0",
+    "karma-jasmine": "~0.1.5",
+    "karma-coffee-preprocessor": "~0.1.2",
+    "karma-phantomjs-launcher": "~0.1.1",
+    "karma": "~0.10.9",
+    "karma-mocha": "~0.1.1",
+    "karma-requirejs": "~0.2.1",
+    "chai": "~1.8.1",
+    "karma-chai": "0.0.2",
+    "phantomjs": "~1.9.2-6"
+  },
+  "dependencies": {
+    "requirejs": "~2.1.10"
+  }
+}
