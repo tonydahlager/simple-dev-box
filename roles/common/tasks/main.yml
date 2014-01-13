@@ -6,3 +6,10 @@
 - name: upgrade all apt-get packages
   sudo: yes
   apt: upgrade=yes cache_valid_time=3600
+
+- name: install common packages
+  sudo: yes
+  apt: name={{ item }} state=present
+  with_items: 
+    - git
+    - vim
