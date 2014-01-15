@@ -8,10 +8,8 @@ simple dev book for NodeJS development
 - Every operating system
 	- VirtualBox, [download here](https://www.virtualbox.org/wiki/Downloads)
 	- Vagrant, [download here](http://www.vagrantup.com/downloads.html)
-	
-<br>
 
-- Linux
+- __Linux Ubuntu__
 	- git
 
 		```
@@ -25,7 +23,7 @@ simple dev book for NodeJS development
     	sudo apt-get update
 	    sudo apt-get install ansible
     	```
-- Mac OSX (using Homebrew, [install instructions here](http://brew.sh/))
+- __Mac OSX__ (using Homebrew, [install instructions here](http://brew.sh/))
 	- git
 	
 		```
@@ -38,17 +36,16 @@ simple dev book for NodeJS development
 		brew install ansible
 		```
 	
-
 ### Getting started
 
-To get started:
+Clone the reop:
 
+    git clone http://github.com/westonplatter/simple-dev-box.git
+    
+    cd simple-dev-box
+    
     vagrant up
-    
-To provision the VM after making changes:
-
-    vagrant provision
-    
+        
 Now you can SSH into the Vagrant machine, IE, the SimpleDevBox:
 
 	vagrant ssh
