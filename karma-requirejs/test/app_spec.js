@@ -13,6 +13,10 @@ define(['app', 'jquery', 'lodash'], function(App, $, _) {
 			expect(_.size([1,2,3])).toEqual(3);
 		});
 		
+		it('true equals true', function(){
+			expect( true ).toEqual(true);
+		});
+		
 	});
 
 });
