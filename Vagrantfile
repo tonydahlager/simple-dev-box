@@ -28,10 +28,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     vb.customize ["modifyvm", :id, "--memory", "512"]
   end
   
-  # Provisioning accomplished via Ansible
+  # Provision the machine via shell script, which runs the 
+  # nodejs-single-node ansible-playbook against the VM.
   #
-  config.vm.provision :ansible do |ansible|
-    ansible.playbook = "nodejs-single-node.yml"
-  end
-  
+  config.vm.provision "shell", path: "script.sh"
 end
