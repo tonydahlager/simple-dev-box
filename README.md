@@ -5,7 +5,7 @@ simple dev book for NodeJS development
 
 ### Install
 
-- Every operating system
+- __REQUIRED FOR EVERY OPERATING SYSTEM__
 	- VirtualBox, [download here](https://www.virtualbox.org/wiki/Downloads)
 	- Vagrant, [download here](http://www.vagrantup.com/downloads.html)
 
